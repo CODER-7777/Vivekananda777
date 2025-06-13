@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>M.Vivekananda-Profile</title>
+  <link rel="stylesheet" href="assign.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="greeting" id="greeting"></div>
+
+    <div class="profile">
+      <img src="SHIVAJI 2.jpg" alt="Profile Image" />
+      <p>Hi guys I'm Mansoju Vivekananda, a student from IITK. I am quite interested in WebDev.</p>
+    </div>
+
+    <section id ="Hobbies" data-aos="fade-in">
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Doing animations and 3D-Modelling in Blender</li>
+        <li>Making videos using Manim</li>
+        <li>Robotics</li>
+        <li>Playing outdoor games</li>
+      </ul>
+    </section>
+
+    <section id ="Projects" data-aos="fade-in">
+      <h2>Projects</h2>
+      <ul>
+        <li>My projects can be seen in my website "Blendlove"</li>
+        <li>Portfolio Website using HTML, CSS & JS</li>
+        <li>Todo List App with localStorage support</li>
+      </ul>
+    </section>
+
+    <!-- <section id ="Skills & Courses" data-aos="fade-in">
+      <h2>Skills & Courses</h2>
+      <div class="skills" id="hidden">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span class="hidden">Python</span>
+        <span class="hidden">Git & GitHub</span>
+        <span class="hidden">C Programming</span>
+        <span>Blender</span>
+      </div>
+      <button onclick="toggleReadMore()">Read More</button>
+      <button onclick="editSkills()">Edit</button>
+    </section> -->
+
+    <!-- <section id="skills-section" data-aos="fade-in">
+  <h2>Skills & Courses</h2>
+
+  <div class="skills">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span class="hidden">Python</span>
+    <span class="hidden">Git & GitHub</span>
+    <span class="hidden">C Programming</span>
+    <span>Blender</span>
+  </div>
+
+  Notice the id here for JavaScript
+  <button id="readMoreBtn" onclick="toggleReadMore()">Read More</button>
+  <button onclick="editSkills()">Edit</button>
+</section> --> 
+
+
+<section id="skills-section" data-aos="fade-in">
+  <h2>Skills & Courses</h2>
+
+  <div class="skills" id="skills-list">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span class="extra hidden">Python</span>
+    <span class="extra hidden">Git & GitHub</span>
+    <span class="extra hidden">C Programming</span>
+    <span>Blender</span>
+  </div>
+
+  <button id="readMoreBtn" onclick="toggleReadMore()">Read More</button>
+  <button onclick="editSkills()">Edit</button>
+</section>
+
+
+    <section id="Contact" data-aos="fade-in">
+      <h2>Contact</h2>
+      <p>Email: vivekanandamansoju@gmail.com</p>
+      <p>Mobile.No: +91 8333831294</p>
+      <p>
+        <a href="https://www.linkedin.com/in/m-vivekananda-77b922284/" style="color: var(--accent)">LinkedIn</a> |
+        <a href="https://github.com/CODER-7777" style="color: var(--accent)">GitHub</a>|
+        <a href="https://vivekanandamansoju.wixsite.com/blendlove" style="color:var(--accent)">Blendlove</a>
+      </p>
+    </section>
+  </div>
+
+  <button class="theme-toggle" onclick="toggleTheme()">Toggle Theme</button>
+  <script src="assign.js"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
